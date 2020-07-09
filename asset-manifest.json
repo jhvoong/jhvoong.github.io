@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4835f77f.chunk.css",
+    "main.js": "/static/js/main.aa9dbd3f.chunk.js",
+    "main.js.map": "/static/js/main.aa9dbd3f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/js/2.889a6e18.chunk.js": "/static/js/2.889a6e18.chunk.js",
+    "static/js/2.889a6e18.chunk.js.map": "/static/js/2.889a6e18.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f37bf1777b5368516609faaa02a7602f.js": "/precache-manifest.f37bf1777b5368516609faaa02a7602f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4835f77f.chunk.css.map": "/static/css/main.4835f77f.chunk.css.map",
+    "static/js/2.889a6e18.chunk.js.LICENSE.txt": "/static/js/2.889a6e18.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/Proxima_Nova_Regular.410504d4.otf",
+    "static/media/bitproject.jpg": "/static/media/bitproject.46381f7a.jpg",
+    "static/media/healthyu.jpg": "/static/media/healthyu.af6fb971.jpg",
+    "static/media/songswithfriends.jpg": "/static/media/songswithfriends.3ae48039.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c3e0c4.js",
+    "static/js/2.889a6e18.chunk.js",
+    "static/css/main.4835f77f.chunk.css",
+    "static/js/main.aa9dbd3f.chunk.js"
+  ]
+}
