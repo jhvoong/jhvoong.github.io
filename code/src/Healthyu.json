@@ -1,0 +1,19 @@
+{
+  "name": "HealthyU",
+  "audience": "Senior citizens",
+  "role": "Main ReactJS developer",
+  "background": "Senior citizens can access the internet for a surplus of health information regarding health conditions. However, much of that information is unreliable or not verified by health professionals.",
+  "objective": "Design and develop a web-based user interface tool which stores and displays evidence-based information on health and wellness from credible sources.",
+  "motivation": "Select community homes will utilize this application in a designated area for senior citizens to enjoy. We want senior citizens to gain a new, healthy perspective on life through the application. They should feel at ease when searching for specific information about a condition, disease, or chronic illness. They should not feel concerned about its validity or who wrote it, since it is curated towards the elderly. Using the application should leave them with an enjoyable, educational experience that guides them towards a better future.",
+  "development": "We had to first come up with a design attractive and ",
+  "features": [
+    "Simple, easy-to-use UI.",
+    "Touch based, interactive application.",
+    "Interactive body diagram.",
+    "Interactive mascot designed to help struggling users navigate through the application.",
+    "Be able to print blogs.",
+    "Form to add/remove more posts.",
+    "Likes on content to recommend/get anonymous feedback.",
+    "Timer to check for inactivity."
+  ]
+}
