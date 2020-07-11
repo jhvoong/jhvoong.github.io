@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.ece45f23.chunk.css",
-    "main.js": "/static/js/main.d23b0507.chunk.js",
-    "main.js.map": "/static/js/main.d23b0507.chunk.js.map",
+    "main.css": "/static/css/main.a56abaf1.chunk.css",
+    "main.js": "/static/js/main.212bd77d.chunk.js",
+    "main.js.map": "/static/js/main.212bd77d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.d60f8744.chunk.js": "/static/js/2.d60f8744.chunk.js",
-    "static/js/2.d60f8744.chunk.js.map": "/static/js/2.d60f8744.chunk.js.map",
+    "static/js/2.32f76203.chunk.js": "/static/js/2.32f76203.chunk.js",
+    "static/js/2.32f76203.chunk.js.map": "/static/js/2.32f76203.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3ed82c62576fda170be7e16ac40a5fe0.js": "/precache-manifest.3ed82c62576fda170be7e16ac40a5fe0.js",
+    "precache-manifest.9198905c78e922be37c0a45106a93de6.js": "/precache-manifest.9198905c78e922be37c0a45106a93de6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ece45f23.chunk.css.map": "/static/css/main.ece45f23.chunk.css.map",
-    "static/js/2.d60f8744.chunk.js.LICENSE.txt": "/static/js/2.d60f8744.chunk.js.LICENSE.txt",
-    "static/media/JohnVoong.jpg": "/static/media/JohnVoong.d6a07ce2.jpg",
+    "static/css/main.a56abaf1.chunk.css.map": "/static/css/main.a56abaf1.chunk.css.map",
+    "static/js/2.32f76203.chunk.js.LICENSE.txt": "/static/js/2.32f76203.chunk.js.LICENSE.txt",
+    "static/media/JohnVoong-min.png": "/static/media/JohnVoong-min.706e93eb.png",
     "static/media/App.scss": "/static/media/mountains.145a921c.jpg",
-    "static/media/bitproject.jpg": "/static/media/bitproject.46381f7a.jpg",
+    "static/media/bitproject-min.jpg": "/static/media/bitproject-min.9c1accc7.jpg",
+    "static/media/healthyu-min.jpg": "/static/media/healthyu-min.276efb53.jpg",
     "static/media/healthyu.jpg": "/static/media/healthyu.af6fb971.jpg",
-    "static/media/songswithfriends.jpg": "/static/media/songswithfriends.3ae48039.jpg"
+    "static/media/healthyuTechStack.png": "/static/media/healthyuTechStack.979da7d6.png",
+    "static/media/songswithfriends-min.jpg": "/static/media/songswithfriends-min.791b3568.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
-    "static/js/2.d60f8744.chunk.js",
-    "static/css/main.ece45f23.chunk.css",
-    "static/js/main.d23b0507.chunk.js"
+    "static/js/2.32f76203.chunk.js",
+    "static/css/main.a56abaf1.chunk.css",
+    "static/js/main.212bd77d.chunk.js"
   ]
 }
