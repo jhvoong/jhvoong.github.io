@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc6a0876.chunk.css",
+    "main.js": "/static/js/main.f796b655.chunk.js",
+    "main.js.map": "/static/js/main.f796b655.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/js/2.7420ae0d.chunk.js": "/static/js/2.7420ae0d.chunk.js",
+    "static/js/2.7420ae0d.chunk.js.map": "/static/js/2.7420ae0d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2af8b324352a1f0ae6041bbbeaea1dd5.js": "/precache-manifest.2af8b324352a1f0ae6041bbbeaea1dd5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cc6a0876.chunk.css.map": "/static/css/main.cc6a0876.chunk.css.map",
+    "static/js/2.7420ae0d.chunk.js.LICENSE.txt": "/static/js/2.7420ae0d.chunk.js.LICENSE.txt",
+    "static/media/JohnVoong-min.png": "/static/media/JohnVoong-min.706e93eb.png",
+    "static/media/App.scss": "/static/media/mountains.145a921c.jpg",
+    "static/media/bitproject-min.jpg": "/static/media/bitproject-min.9c1accc7.jpg",
+    "static/media/healthyu-min.jpg": "/static/media/healthyu-min.276efb53.jpg",
+    "static/media/healthyu.jpg": "/static/media/healthyu.af6fb971.jpg",
+    "static/media/healthyuTechStack.png": "/static/media/healthyuTechStack.979da7d6.png",
+    "static/media/songswithfriends-min.jpg": "/static/media/songswithfriends-min.791b3568.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c3e0c4.js",
+    "static/js/2.7420ae0d.chunk.js",
+    "static/css/main.cc6a0876.chunk.css",
+    "static/js/main.f796b655.chunk.js"
+  ]
+}
