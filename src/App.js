@@ -13,10 +13,12 @@ import SWF from './components/SWF'
 
 import './reset.css'
 import './App.scss'
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
