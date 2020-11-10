@@ -1,16 +1,18 @@
 @font-face {
-	font-family: Proxima Nova;
-	src: url("./fonts/Proxima_Nova_Regular.otf") format('opentype');
+  font-family: Proxima Nova;
+  src: url('./fonts/Proxima_Nova_Regular.otf') format('opentype');
 }
 
 @font-face {
-	font-family: Proxima Nova;
-	font-weight: bold;
-	src: url("./fonts/Proxima_Nova_Bold.otf") format('opentype');
+  font-family: Proxima Nova;
+  font-weight: bold;
+  src: url('./fonts/Proxima_Nova_Bold.otf') format('opentype');
 }
 
 $fontColor: white;
-$tablet: "all and (max-width: 959px)";
+$lightgray: #bbbbbb;
+$darkgray: #333;
+$tablet: 'all and (max-width: 959px)';
 
 @mixin flexCenter($flexDirection) {
   display: flex;
@@ -25,25 +27,27 @@ $tablet: "all and (max-width: 959px)";
 body {
   display: flex;
   justify-content: center;
-  background: #bbbbbb;
+  background: $lightgray;
   font-family: Proxima Nova, sans-serif;
 }
 header {
   text-align: center;
 }
-ol, ul {
+ol,
+ul {
   list-style-position: inside;
   list-style-type: initial;
 }
-b, strong {
+b,
+strong {
   font-weight: bold;
 }
 
 /* =Fade.js */
-.fadeIn {
+.fade-in {
   animation: fadeIn 1s;
 }
-.fadeOut {
+.fade-out {
   animation: fadeOut 1s;
 }
 @keyframes fadeIn {
@@ -65,7 +69,8 @@ b, strong {
 }
 
 /* =Home.js */
-.home-header, .home-main {
+.home-header,
+.home-main {
   width: 960px;
 }
 
@@ -74,7 +79,7 @@ b, strong {
   margin: 0 auto 25px;
   @include flexCenter(column);
 
-  background-image: url("./assets/mountains.jpg");
+  background-image: url('./assets/mountains.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0 0 8px 8px;
@@ -127,13 +132,14 @@ footer {
       font-size: 35px;
     }
     &:hover {
-      color: #6b6b6b;
+      color: #806666;
     }
   }
 }
 
 @media #{$tablet} {
-  .home-header, .home-main {
+  .home-header,
+  .home-main {
     width: auto;
   }
   .home-header {
@@ -165,7 +171,7 @@ footer {
   padding: 15px;
   position: sticky;
   top: 0;
-  background: #333;
+  background: $darkgray;
   text-align: right;
   z-index: 1;
   a {
@@ -188,8 +194,8 @@ footer {
   border: 1px solid gray;
   border-radius: 8px;
   background: #888;
-  -webkit-box-shadow: 0 8px 6px -6px #333;
-  -moz-box-shadow: 0 8px 6px -6px #333;
+  -webkit-box-shadow: 0 8px 6px -6px $darkgray;
+  -moz-box-shadow: 0 8px 6px -6px $darkgray;
   box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 10px 10px 5px #ccc;
   -khtml-box-shadow: 10px 10px 5px #ccc;
@@ -198,14 +204,15 @@ footer {
   }
   &:hover {
     background: #6b6b6b;
-    -webkit-box-shadow: 0 16px 12px -12px #333;
-    -moz-box-shadow: 0 16px 12px -12px #333;
+    -webkit-box-shadow: 0 16px 12px -12px $darkgray;
+    -moz-box-shadow: 0 16px 12px -12px $darkgray;
     box-shadow: 0 16px 12px -12px black;
     -moz-box-shadow: 20px 20px 10px #ccc;
     -khtml-box-shadow: 20px 20px 10px #ccc;
   }
 }
-.info-block, .image-block {
+.info-block,
+.image-block {
   width: 400px;
   border-radius: 8px;
   object-fit: cover;
@@ -225,7 +232,7 @@ footer {
     width: min-content;
     color: $fontColor;
     text-decoration: none;
-  } 
+  }
   .learn-more {
     width: min-content;
     padding: 10px;
@@ -254,12 +261,14 @@ footer {
 }
 
 @media #{$tablet} {
-  .project, .project.reverse {
+  .project,
+  .project.reverse {
     width: 80%;
     margin: 25px auto;
     flex-direction: column-reverse;
   }
-  .image-block, .info-block {
+  .image-block,
+  .info-block {
     width: 100%;
   }
   .image-block {
@@ -307,7 +316,8 @@ section {
     margin-bottom: 30px;
     font-size: 17px;
   }
-  ol, ul {
+  ol,
+  ul {
     margin-bottom: 20px;
   }
 }
@@ -317,10 +327,13 @@ section {
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
-  img {
-    width: 35%;
+  align-items: center;
+
+  @media #{$tablet} {
+    flex-direction: column;
   }
 }
+
 .about-text {
   width: 480px;
   line-height: 2em;
@@ -331,5 +344,15 @@ section {
   }
   p {
     font-size: 18px;
+  }
+}
+
+.profile-container {
+  margin: 50px;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 400px;
+  &__img {
+    width: 100%;
   }
 }
